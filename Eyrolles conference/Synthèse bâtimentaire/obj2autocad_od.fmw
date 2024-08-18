@@ -1,0 +1,1694 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    Command line to run this workspace:
+#        "C:\Program Files\FME\fme.exe" "E:\OneDrive - Monsieur Quentin Marquette\Infopro Digital\2. Rédaction Map 3D\Dédicaces\Eyrolles (22-06-2023)\02. Bâtiments OBJ\obj2autocad_od.fmw"
+#          --DestDataset_AUTOCAD_OD "$(FME_MF_DIR_USERTYPED)Batiment2.dwg"
+#          --SourceDataset_OBJ "\"\"$(FME_MF_DIR_USERTYPED)Batiment2.obj\" \"$(FME_MF_DIR_USERTYPED)Batiment7.obj\" \"$(FME_MF_DIR_USERTYPED)Batiment8.obj\" \"$(FME_MF_DIR_USERTYPED)Batiment10.obj\" \"$(FME_MF_DIR_USERTYPED)Batiment11.obj\" \"$(FME_MF_DIR_USERTYPED)Batiment13.obj\" \"$(FME_MF_DIR_USERTYPED)Batiment14.obj\"\""
+#          --FME_LAUNCH_VIEWER_APP "YES"
+#    
+#!   A0_PREVIEW_IMAGE="data:image/png;base64,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"
+#!   ARCGIS_COMPATIBILITY="ARCGIS_AUTO"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   BEGIN_PYTHON=""
+#!   BEGIN_TCL=""
+#!   CATEGORY=""
+#!   DESCRIPTION=""
+#!   DESTINATION="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   DOC_EXTENTS="2528.27 1111"
+#!   DOC_TOP_LEFT="121.752 -998.748"
+#!   END_PYTHON=""
+#!   END_TCL=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_BUILD_NUM="23319"
+#!   FME_BULK_MODE_THRESHOLD="2000"
+#!   FME_DOCUMENT_GUID="2097ce3c-290e-4076-82bb-87cfa9289e24"
+#!   FME_DOCUMENT_PRIORGUID="d0d9558a-037b-48c4-a5cd-3bf581be0a44"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_NAMES_ENCODING="UTF-8"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_SERVER_SERVICES=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   HISTORY=""
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_BUILD="FME(R) 2023.0.0.3 (20230613 - Build 23319 - WIN64)"
+#!   LAST_SAVE_DATE="2023-06-21T08:11:23"
+#!   LOG_FILE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   MARKDOWN_USAGE=""
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   PASSWORD=""
+#!   PYTHON_COMPATIBILITY="311"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SAVE_ON_PROMPT_AND_RUN="Yes"
+#!   SHOW_ANNOTATIONS="true"
+#!   SHOW_INFO_NODES="true"
+#!   SOURCE="NONE"
+#!   SOURCE_ROUTING_FILE=""
+#!   TERMINATE_REJECTED="YES"
+#!   TITLE=""
+#!   USAGE=""
+#!   USE_MARKDOWN=""
+#!   VIEW_POSITION="-412.504 271.878"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="100"
+#! >
+#! <DATASETS>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="OBJ"
+#!   DATASET="$(SourceDataset_OBJ)"
+#!   KEYWORD="OBJ_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="false"
+#!   EXPOSABLE_ATTRS="fme_basename string fme_color string fme_dataset string fme_feature_type string fme_fill_color string fme_geometry string fme_primary_axis string fme_rotation string fme_secondary_axis string fme_start_angle string fme_sweep_angle string fme_text_size string fme_text_string string fme_type string multi_reader_full_id string multi_reader_id string multi_reader_keyword string multi_reader_type string obj_type string"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILEDIR"
+#!   FTTR_TYPE="LISTBOX_ENCODED"
+#!   GENERATE_FME_BUILD_NUM="23319"
+#!   COORDSYS=""
+#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   START_FEATURE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="OBJ_OUT_WRITE_FME_VERSION"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="File1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="OBJ File"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the OBJ file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the OBJ file"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="AUTOCAD_OD"
+#!   DATASET="$(DestDataset_AUTOCAD_OD)"
+#!   KEYWORD="AUTOCAD_OD_1"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="30"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="autocad_color 10 autocad_linetype CONTINUOUS autocad_layer_frozen no autocad_layer_hidden no autocad_layer_locked no autocad_layer_on yes autocad_layer_plottable yes autocad_layer_desc \&quot;\&quot; autocad_od_entity_key_attr autocad_od_entity_key"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="autocad_active_anno_scale string autocad_alignment_x number(31,15) autocad_alignment_y number(31,15) autocad_alignment_z number(31,15) autocad_angbase number(31,15) autocad_angdir logical autocad_anno_force_visible logical autocad_anno_handle char(50) autocad_anno_scale{}.drawing_units number(31,15) autocad_anno_scale{}.name string autocad_anno_scale{}.paper_units number(31,15) autocad_anno_type char(30) autocad_arc_defpt.x number(31,15) autocad_arc_defpt.y number(31,15) autocad_arc_defpt.z number(31,15) autocad_arrow_head_on logical autocad_attach_point char(50) autocad_attmode number(6,0) autocad_attribute_display char(50) autocad_attributes_follow logical autocad_aunits number(6,0) autocad_auprec number(6,0) autocad_base_x number(31,15) autocad_base_y number(31,15) autocad_base_z number(31,15) autocad_big_fontname char(65) autocad_block_name char(50) autocad_box_height number(31,15) autocad_box_width number(31,15) autocad_bulge char(50) autocad_closed_spline number(6,0) autocad_color number(6,0) autocad_control_weights string autocad_control_x string autocad_control_y string autocad_control_z string autocad_defpt2.x number(31,15) autocad_defpt2.y number(31,15) autocad_defpt2.z number(31,15) autocad_defpt3.x number(31,15) autocad_defpt3.y number(31,15) autocad_defpt3.z number(31,15) autocad_defpt4.x number(31,15) autocad_defpt4.y number(31,15) autocad_defpt4.z number(31,15) autocad_degree number(31,15) autocad_dim_arrowhead_pt_1.x number(31,15) autocad_dim_arrowhead_pt_1.y number(31,15) autocad_dim_arrowhead_pt_2.x number(31,15) autocad_dim_arrowhead_pt_2.y number(31,15) autocad_dim_clone_inspection_point.x number(31,15) autocad_dim_clone_inspection_point.y number(31,15) autocad_dim_clone_inspection_point.z number(31,15) autocad_dim_flag number(5,0) autocad_dimension_attach_point number(5,0) autocad_dimension_style_name char(50) autocad_dimension_type char(50) autocad_edge_1 char(10) autocad_edge_2 char(10) autocad_edge_3 char(10) autocad_edge_4 char(10) autocad_elevation number(31,15) autocad_end_tangent_x number(31,15) autocad_end_tangent_y number(31,15) autocad_end_tangent_z number(31,15) autocad_end_width number(31,15) autocad_entity char(50) autocad_entity_handle char(50) autocad_extrusion_x number(31,15) autocad_extrusion_y number(31,15) autocad_extrusion_z number(31,15) autocad_fill_color number(6,0) autocad_fillmode logical autocad_fit_tolerance number(31,15) autocad_fit_x string autocad_fit_y string autocad_fit_z string autocad_flag number(6,0) autocad_generation char(30) autocad_group_accessible char(50) autocad_group_anonymous char(50) autocad_group_description char(50) autocad_group_name char(50) autocad_group_num_entities char(50) autocad_group_selectable char(50) autocad_hatch_complex_mode number(5,0) autocad_hatch_gradient_angle number(31,15) autocad_hatch_gradient_color1 char(50) autocad_hatch_gradient_color2 char(50) autocad_hatch_gradient_name char(32) autocad_hatch_gradient_one_color_mode number(5,0) autocad_hatch_gradient_shift number(31,15) autocad_hatch_gradient_type number(6,0) autocad_hatch_loop{}.autocad_hatch_bulges_present number(5,0) autocad_hatch_loop{}.autocad_hatch_bulge{} number(31,15) autocad_hatch_object_type number(6,0) autocad_hatch_origin_point_x number(31,15) autocad_hatch_origin_point_y number(31,15) autocad_hatch_pattern_angle number(31,15) autocad_hatch_pattern_double number(5,0) autocad_hatch_pattern_name char(32) autocad_hatch_pattern_scale number(31,15) autocad_hatch_pattern_space number(31,15) autocad_hatch_pattern_type number(6,0) autocad_hatch_pixel_size number(31,15) autocad_hatch_shade_tint_value number(31,15) autocad_hatch_style number(6,0) autocad_insunits number(6,0) autocad_invisible_attributes{} char(50) autocad_justification char(50) autocad_knot_param char(10) autocad_knot_tolerance number(31,15) autocad_knots string autocad_latitude number(31,15) autocad_layer char(50) autocad_line_defpoint.x number(31,15) autocad_line_defpoint.y number(31,15) autocad_line_defpoint.z number(31,15) autocad_linespace_factor number(31,15) autocad_linetype char(50) autocad_linetype_generation number(1,0) autocad_linetype_scale number(31,15) autocad_lineweight char(10) autocad_longitude number(31,15) autocad_lunits number(6,0) autocad_luprec number(6,0) autocad_map_odtable char(30) autocad_mline_style char(50) autocad_mline_type char(50) autocad_mpolygon_gradient_angle number(31,15) autocad_mpolygon_gradient_color1 char(50) autocad_mpolygon_gradient_color2 char(50) autocad_mpolygon_gradient_name char(32) autocad_mpolygon_gradient_one_color_mode number(5,0) autocad_mpolygon_gradient_shift number(31,15) autocad_mpolygon_gradient_type number(6,0) autocad_mpolygon_object_type number(6,0) autocad_mpolygon_origin_point_x number(31,15) autocad_mpolygon_origin_point_y number(31,15) autocad_mpolygon_pattern_angle number(31,15) autocad_mpolygon_pattern_double number(5,0) autocad_mpolygon_pattern_name char(32) autocad_mpolygon_pattern_scale number(31,15) autocad_mpolygon_pattern_space number(31,15) autocad_mpolygon_pattern_type number(6,0) autocad_mpolygon_pixel_size number(31,15) autocad_mpolygon_shade_tint_value number(31,15) autocad_mpolygon_style number(6,0) autocad_mtext_ref_rect_width number(31,15) autocad_mtext_string char(50) autocad_mtext_text_height number(31,15) autocad_num_cntl_pts number(11,0) autocad_num_fit_pts number(11,0) autocad_num_knots number(11,0) autocad_num_lines number(5,0) autocad_num_verts number(5,0) autocad_number_columns number(5,0) autocad_number_rows number(5,0) autocad_oblique number(31,15) autocad_od_entity_key char(50) autocad_original_entity char(50) autocad_original_entity_type char(50) autocad_original_layer char(50) autocad_original_rotation number(31,15) autocad_original_text_size number(31,15) autocad_original_text_string string autocad_path_type char(10) autocad_periodic_spline number(6,0) autocad_polyflag char(50) autocad_primary_axis number(31,15) autocad_projectname char(32) autocad_proxygraphics number(6,0) autocad_raster_brightness number(4,0) autocad_raster_clip_inverted logical autocad_raster_clip_points{}.x number(31,15) autocad_raster_clip_points{}.y number(31,15) autocad_raster_clip_points{}.z number(31,15) autocad_raster_contrast number(4,0) autocad_raster_display_opt_clip logical autocad_raster_display_opt_show logical autocad_raster_display_opt_show_unaligned logical autocad_raster_display_opt_transparent logical autocad_raster_fade number(4,0) autocad_raster_filename string autocad_raster_original_transparency char(50) autocad_raster_transparency number(4,0) autocad_rational_spline number(6,0) autocad_rotation number(31,15) autocad_row_distance number(31,15) autocad_scale number(31,15) autocad_secondary_axis number(31,15) autocad_shape_filename char(65) autocad_shape_height number(31,15) autocad_shape_index number(31,15) autocad_shape_name char(32) autocad_shape_rotation number(31,15) autocad_shape_vertical char(6) autocad_shape_width number(31,15) autocad_size_x number(31,15) autocad_size_y number(31,15) autocad_size_z number(31,15) autocad_start_angle number(31,15) autocad_start_tangent_x number(31,15) autocad_start_tangent_y number(31,15) autocad_start_tangent_z number(31,15) autocad_start_width number(31,15) autocad_store_bulges_mode logical autocad_sweep_angle number(31,15) autocad_text_midpoint.x number(31,15) autocad_text_midpoint.y number(31,15) autocad_text_midpoint.z number(31,15) autocad_text_rotation number(31,15) autocad_text_size number(31,15) autocad_text_string char(50) autocad_text_x_pos number(31,15) autocad_text_y_pos number(31,15) autocad_text_z_pos number(31,15) autocad_textpict char(50) autocad_thickness number(31,15) autocad_transparency number(5,0) autocad_true_color char(50) autocad_true_type_font char(50) autocad_txt_offset_x number(31,15) autocad_txt_offset_y number(31,15) autocad_txt_offset_z number(31,15) autocad_ucs_xangle number(31,15) autocad_underlay_adjusted_for_background logical autocad_underlay_clip_inverted logical autocad_underlay_clipped logical autocad_underlay_contrast number(6,0) autocad_underlay_definition_id char(50) autocad_underlay_fade number(6,0) autocad_underlay_item_name char(65) autocad_underlay_monochrome logical autocad_underlay_on logical autocad_underlay_source_filename char(65) autocad_underlay_type char(65) autocad_version char(32) autocad_viewport_ambient_light_color number(6,0) autocad_viewport_anno_scale string autocad_viewport_anno_scale_drawing_units number(31,15) autocad_viewport_anno_scale_paper_units number(31,15) autocad_viewport_back_clip logical autocad_viewport_back_clip_distance number(31,15) autocad_viewport_brightness number(31,15) autocad_viewport_center_point_x number(31,15) autocad_viewport_center_point_y number(31,15) autocad_viewport_center_point_z number(31,15) autocad_viewport_circle_sides number(6,0) autocad_viewport_clipped_handle char(50) autocad_viewport_contrast number(31,15) autocad_viewport_custom_scale number(31,15) autocad_viewport_default_lighting logical autocad_viewport_default_lighting_type number(6,0) autocad_viewport_front_clip logical autocad_viewport_front_clip_distance number(31,15) autocad_viewport_front_clip_eye logical autocad_viewport_grid logical autocad_viewport_grid_adaptive logical autocad_viewport_grid_bound_limits logical autocad_viewport_grid_follow logical autocad_viewport_grid_increment_x number(31,15) autocad_viewport_grid_increment_y number(31,15) autocad_viewport_grid_major number(6,0) autocad_viewport_grid_subdivision_restricted logical autocad_viewport_handle char(50) autocad_viewport_height number(31,15) autocad_viewport_hidden_lines_removed logical autocad_viewport_lens_length number(31,15) autocad_viewport_locked logical autocad_viewport_non_rect_clip logical autocad_viewport_non_rect_clip_handle char(50) autocad_viewport_on logical autocad_viewport_perspective logical autocad_viewport_plot_style_sheet string autocad_viewport_resolved_target_x number(31,15) autocad_viewport_resolved_target_y number(31,15) autocad_viewport_resolved_target_z number(31,15) autocad_viewport_shade_plot char(32) autocad_viewport_snap logical autocad_viewport_snap_angle number(31,15) autocad_viewport_snap_base_point_x number(31,15) autocad_viewport_snap_base_point_y number(31,15) autocad_viewport_snap_increment_x number(31,15) autocad_viewport_snap_increment_y number(31,15) autocad_viewport_snap_iso_pair number(6,0) autocad_viewport_snap_isometric logical autocad_viewport_standard_scale char(32) autocad_viewport_twist_angle number(31,15) autocad_viewport_ucs_elevation number(31,15) autocad_viewport_ucs_follow_mode logical autocad_viewport_ucs_icon_origin logical autocad_viewport_ucs_icon_visible logical autocad_viewport_ucs_origin_x number(31,15) autocad_viewport_ucs_origin_y number(31,15) autocad_viewport_ucs_origin_z number(31,15) autocad_viewport_ucs_saved_with_viewport logical autocad_viewport_ucs_xdir_x number(31,15) autocad_viewport_ucs_xdir_y number(31,15) autocad_viewport_ucs_xdir_z number(31,15) autocad_viewport_ucs_ydir_x number(31,15) autocad_viewport_ucs_ydir_y number(31,15) autocad_viewport_ucs_ydir_z number(31,15) autocad_viewport_view_center_x number(31,15) autocad_viewport_view_center_y number(31,15) autocad_viewport_view_direction_x number(31,15) autocad_viewport_view_direction_y number(31,15) autocad_viewport_view_direction_z number(31,15) autocad_viewport_view_height number(31,15) autocad_viewport_view_target_x number(31,15) autocad_viewport_view_target_y number(31,15) autocad_viewport_view_target_z number(31,15) autocad_viewport_width number(31,15) autocad_visible_attributes{} char(50) autocad_width number(31,15) autocad_width_factor number(31,15) autocad_xrecord_data_list{} char(50) autocad_xref_name char(50) autocad_xref_path string autocad_xref_type char(10) autocad_xscale number(31,15) autocad_yscale number(31,15) autocad_zscale number(31,15) extended_data_list{} char(50) fme_attrib_info{} char(50) fme_attrib_info{}.align_x number(31,15) fme_attrib_info{}.align_y number(31,15) fme_attrib_info{}.attribute_flag char(2) fme_attrib_info{}.color.blue number(31,15) fme_attrib_info{}.color.green number(31,15) fme_attrib_info{}.color.red number(31,15) fme_attrib_info{}.color.source char(10) fme_attrib_info{}.field_name char(513) fme_attrib_info{}.field_size number(5,0) fme_attrib_info{}.field_value char(2049) fme_attrib_info{}.generation char(25) fme_attrib_info{}.height number(31,15) fme_attrib_info{}.isVisible char(6) fme_attrib_info{}.justification char(25) fme_attrib_info{}.layer char(512) fme_attrib_info{}.location_x number(31,15) fme_attrib_info{}.location_y number(31,15) fme_attrib_info{}.location_z number(31,15) fme_attrib_info{}.oblique number(31,15) fme_attrib_info{}.rotation number(31,15) fme_attrib_info{}.style char(512) fme_attrib_info{}.width_factor number(31,15) fme_basename char(50) fme_color char(50) fme_dataset char(50) fme_feature_type char(50) fme_fill_color char(50) fme_geometry char(50) fme_primary_axis double fme_rotation double fme_secondary_axis double fme_start_angle double fme_sweep_angle double fme_text_size double fme_text_string char(50) fme_type char(50)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP autocad_settings autocad_layer_desc%autocad_layer_appearance_group%autocad_layer_state_group%autocad_advanced_group Layer&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP autocad_layer_appearance_group autocad_linetype%autocad_color Appearance&quot; YES &quot;GUI OPTIONAL DISCLOSUREGROUP autocad_layer_state_group autocad_layer_on%autocad_layer_frozen%autocad_layer_hidden%autocad_layer_locked%autocad_layer_plottable State&quot; &quot;&quot; &quot;GUI INTEGER_OR_ATTR autocad_color Default Color&quot; 10 &quot;GUI TEXT autocad_linetype Default Linetype&quot; CONTINUOUS &quot;GUI CHOICE autocad_layer_frozen Yes%No Frozen&quot; No &quot;GUI CHOICE autocad_layer_hidden Yes%No Hidden&quot; No &quot;GUI CHOICE autocad_layer_locked Yes%No Locked&quot; No &quot;GUI CHOICE autocad_layer_on Yes%No On&quot; Yes &quot;GUI CHOICE autocad_layer_plottable Yes%No Plottable&quot; Yes &quot;GUI OPTIONAL TEXT autocad_layer_desc Description&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP autocad_advanced_group autocad_od_entity_key_attr Advanced&quot; &quot;&quot; &quot;GUI TEXT autocad_od_entity_key_attr Object Data Entity Key Attribute&quot; autocad_od_entity_key "
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS="&lt;&gt;/&quot;:;?*|,=`!@#%^&amp;+.[] {}()&apos;~"
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE"
+#!   FTTR_TYPE=""
+#!   GENERATE_FME_BUILD_NUM="23319"
+#!   COORDSYS=""
+#!   FANOUT_EXPRESSION="&lt;Unused&gt;"
+#!   FANOUT_GROUP="NO"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="AUTOCAD_OD_OUT_DEFAULT_ATTR_STORAGE AUTOCAD_OD_OUT_DEFAULT_APPLICATION AUTOCAD_OD_OUT_OUTPUT_DEFINED_ATTRS_ONLY AUTOCAD_OD_OUT_SHAPE_DIRECTORY AUTOCAD_OD_OUT_CREATED_BLOCK_NAME_PREFIX AUTOCAD_OD_OUT_COORDINATE_SYSTEM_STORAGE AUTOCAD_OD_OUT_APPEND_TO_TEMPLATEFILE AUTOCAD_OD_OUT_PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES AUTOCAD_OD_OUT_BLOCK_OBJECT_DATA_STORAGE AUTOCAD_OD_OUT_PURGE AUTOCAD_OD_OUT_PREFER_DONUTS_AS_HATCHES AUTOCAD_OD_OUT_INDEX_TYPE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Layer1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Object Data Table or Layer"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE=".dwg image/vnd.dwg .dxf image/vnd.dxf ADD_DISPOSITION"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select Map3D drawing file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the Map3D drawing file"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="logical"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(20)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(12)"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(8)"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(8)"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(31,15)"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(15,7)"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="obj_collection"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="obj_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="obj_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="obj_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="obj_line"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_voxel_grid"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="obj_face"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="OBJ"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_insert"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_shape"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_leader"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_xline"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_ray"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_trace"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_solid"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_face"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_layout"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_text"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_arc"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_ellipse"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_polygon"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_polygon"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_spline"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_attribute"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_multi_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_multi_text"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_attr_def"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_viewport"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_tolerance"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_dictionary"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_mline_style"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_class"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_hatch"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_mpolygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_region"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_surface"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_solid3d"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_wipeout"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_raster"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_xref"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_underlay"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_oriented_arc"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_body"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_zombie"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_xrecord"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_leader"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_group"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_proxy"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_block"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_begin_block"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_end_block"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_block"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_dimension"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_dimension_def"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_info"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_od_table"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_polygon"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="autocad_polygon"
+#!   FME_TYPE="fme_voxel_grid"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="AUTOCAD_OD"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="FME_Synthèse bâtimentaire"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="3"
+#!   FEAT_GEOMTYPE="All"
+#!   POSITION="1878.1127811278106 -368.25243752437513"
+#!   BOUNDING_RECT="1878.1127811278106 -368.25243752437513 663.09481825772946 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="AUTOCAD_OD_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <DEFLINE_PARM PARM_NAME="autocad_advanced_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="autocad_color" PARM_VALUE="10"/>
+#!     <DEFLINE_PARM PARM_NAME="autocad_layer_appearance_group" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <DEFLINE_PARM PARM_NAME="autocad_layer_desc" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="autocad_layer_frozen" PARM_VALUE="No"/>
+#!     <DEFLINE_PARM PARM_NAME="autocad_layer_hidden" PARM_VALUE="No"/>
+#!     <DEFLINE_PARM PARM_NAME="autocad_layer_locked" PARM_VALUE="No"/>
+#!     <DEFLINE_PARM PARM_NAME="autocad_layer_on" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="autocad_layer_plottable" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="autocad_layer_state_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="autocad_linetype" PARM_VALUE="CONTINUOUS"/>
+#!     <DEFLINE_PARM PARM_NAME="autocad_od_entity_key_attr" PARM_VALUE="autocad_od_entity_key"/>
+#!     <DEFLINE_PARM PARM_NAME="autocad_settings" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Batiment2"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="4"
+#!   FEAT_GEOMTYPE="obj_point obj_line obj_face obj_collection"
+#!   POSITION="213.75193751937522 -16.247812478124786"
+#!   BOUNDING_RECT="213.75193751937522 -16.247812478124786 454 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="OBJ_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Batiment7"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="5"
+#!   FEAT_GEOMTYPE="obj_point obj_line obj_face obj_collection"
+#!   POSITION="213.75193751937522 -159.24781247812479"
+#!   BOUNDING_RECT="213.75193751937522 -159.24781247812479 454 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="OBJ_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Batiment8"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="7"
+#!   FEAT_GEOMTYPE="obj_point obj_line obj_face obj_collection"
+#!   POSITION="213.75193751937522 -302.24781247812473"
+#!   BOUNDING_RECT="213.75193751937522 -302.24781247812473 454 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="OBJ_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Batiment10"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="8"
+#!   FEAT_GEOMTYPE="obj_point obj_line obj_face obj_collection"
+#!   POSITION="213.75193751937522 -445.24781247812473"
+#!   BOUNDING_RECT="213.75193751937522 -445.24781247812473 454 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="OBJ_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Batiment11"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="9"
+#!   FEAT_GEOMTYPE="obj_point obj_line obj_face obj_collection"
+#!   POSITION="213.75193751937522 -588.24781247812484"
+#!   BOUNDING_RECT="213.75193751937522 -588.24781247812484 454 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="OBJ_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Batiment13"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="10"
+#!   FEAT_GEOMTYPE="obj_point obj_line obj_face obj_collection"
+#!   POSITION="213.75193751937522 -731.24781247812484"
+#!   BOUNDING_RECT="213.75193751937522 -731.24781247812484 454 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="OBJ_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Batiment14"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="11"
+#!   FEAT_GEOMTYPE="obj_point obj_line obj_face obj_collection"
+#!   POSITION="213.75193751937522 -874.24781247812484"
+#!   BOUNDING_RECT="213.75193751937522 -874.24781247812484 454 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="OBJ_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! <READER_DATASETS>
+#! <DATASET
+#!   NAME="OBJ_1"
+#!   OVERRIDE="-OBJ_1_DATASET"
+#!   DATASET="OBJ_1/Batiment14.obj&quot;&quot;"
+#! />
+#! </READER_DATASETS>
+#! <WRITER_DATASETS>
+#! <DATASET
+#!   NAME="AUTOCAD_OD_1"
+#!   OVERRIDE="-AUTOCAD_OD_1_DATASET"
+#!   DATASET="AUTOCAD_OD_1/Batiment2.dwg"
+#! />
+#! </WRITER_DATASETS>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI FILENAME DestDataset_AUTOCAD_OD DWG_Files/DXF_Files(*.dwg;*.dxf)|*.dwg;*.dxf|DWG_Files(*.dwg)|*.dwg|DXF_Files(*.dxf)|*.dxf|All_Files(*)|* Destination Autodesk AutoCAD Map 3D Object Data File:"
+#!   DEFAULT_VALUE="$(FME_MF_DIR)Batiment2.dwg"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI MULTIFILE SourceDataset_OBJ INCLUDE_WEB_BROWSER%OBJ_Files(*.obj)|*.obj|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|All_Files(*)|* Source OBJ File:"
+#!   DEFAULT_VALUE="&quot;&quot;$(FME_MF_DIR)Batiment2.obj&quot; &quot;$(FME_MF_DIR)Batiment7.obj&quot; &quot;$(FME_MF_DIR)Batiment8.obj&quot; &quot;$(FME_MF_DIR)Batiment10.obj&quot; &quot;$(FME_MF_DIR)Batiment11.obj&quot; &quot;$(FME_MF_DIR)Batiment13.obj&quot; &quot;$(FME_MF_DIR)Batiment14.obj&quot;&quot;"
+#!   IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <USER_PARAMETERS
+#!   FORM="eyJwYXJhbWV0ZXJzIjpbeyJhY2Nlc3NNb2RlIjoid3JpdGUiLCJkZWZhdWx0VmFsdWUiOiIkKEZNRV9NRl9ESVIpQmF0aW1lbnQyLmR3ZyIsImZpbHRlcnMiOlt7ImRlc2NyaXB0aW9uIjoiRFdHIEZpbGVzL0RYRiBGaWxlcyIsImZpbHRlciI6WyIqLmR3ZyIsIiouZHhmIl19LHsiZGVzY3JpcHRpb24iOiJEV0cgRmlsZXMiLCJmaWx0ZXIiOlsiKi5kd2ciXX0seyJkZXNjcmlwdGlvbiI6IkRYRiBGaWxlcyIsImZpbHRlciI6WyIqLmR4ZiJdfSx7ImRlc2NyaXB0aW9uIjoiQWxsIEZpbGVzIiwiZmlsdGVyIjpbIioiXX1dLCJpdGVtc1RvU2VsZWN0IjoiZmlsZXMiLCJuYW1lIjoiRGVzdERhdGFzZXRfQVVUT0NBRF9PRCIsInByb21wdCI6IkRlc3RpbmF0aW9uIEF1dG9kZXNrIEF1dG9DQUQgTWFwIDNEIE9iamVjdCBEYXRhIEZpbGU6IiwicmVxdWlyZWQiOnRydWUsInNlbGVjdE11bHRpcGxlIjpmYWxzZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6ImZpbGUiLCJ2YWxpZGF0ZUV4aXN0ZW5jZSI6ZmFsc2UsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiYWNjZXNzTW9kZSI6InJlYWQiLCJkZWZhdWx0VmFsdWUiOiJcIlwiJChGTUVfTUZfRElSKUJhdGltZW50Mi5vYmpcIiBcIiQoRk1FX01GX0RJUilCYXRpbWVudDcub2JqXCIgXCIkKEZNRV9NRl9ESVIpQmF0aW1lbnQ4Lm9ialwiIFwiJChGTUVfTUZfRElSKUJhdGltZW50MTAub2JqXCIgXCIkKEZNRV9NRl9ESVIpQmF0aW1lbnQxMS5vYmpcIiBcIiQoRk1FX01GX0RJUilCYXRpbWVudDEzLm9ialwiIFwiJChGTUVfTUZfRElSKUJhdGltZW50MTQub2JqXCJcIiIsImZpbHRlcnMiOlt7ImRlc2NyaXB0aW9uIjoiT0JKIEZpbGVzIiwiZmlsdGVyIjpbIioub2JqIl19LHsiZGVzY3JpcHRpb24iOiJBcmNoaXZlIEZpbGVzIiwiZmlsdGVyIjpbIiouN3oiLCIqLjd6aXAiLCIqLnJhciIsIioucnZ6IiwiKi50YXIiLCIqLnRhci5iejIiLCIqLnRhci5neiIsIioudGd6IiwiKi56aXAiLCIqLnppcHgiXX0seyJkZXNjcmlwdGlvbiI6IkNvbXByZXNzZWQgRmlsZXMiLCJmaWx0ZXIiOlsiKi5iejIiLCIqLmd6Il19LHsiZGVzY3JpcHRpb24iOiJBbGwgRmlsZXMiLCJmaWx0ZXIiOlsiKiJdfV0sImluY2x1ZGVXZWJCcm93c2VyIjp0cnVlLCJpdGVtc1RvU2VsZWN0IjoiZmlsZXMiLCJuYW1lIjoiU291cmNlRGF0YXNldF9PQkoiLCJwcm9tcHQiOiJTb3VyY2UgT0JKIEZpbGU6IiwicmVxdWlyZWQiOnRydWUsInNlbGVjdE11bHRpcGxlIjp0cnVlLCJ0eXBlIjoiZmlsZSIsInZhbGlkYXRlRXhpc3RlbmNlIjpmYWxzZSwidmFsdWVUeXBlIjoic3RyaW5nIn1dfQ=="
+#! >
+#! <PARAMETER_INFO>
+#!     <INFO NAME="DestDataset_AUTOCAD_OD" 
+#!   DEFAULT_VALUE="$(FME_MF_DIR)Batiment2.dwg"
+#!   SCOPE="DEPENDENT"
+#!   GENERATED_GUI_LINE="true"
+#!   GUI_LINE="GUI FILENAME DestDataset_AUTOCAD_OD DWG_Files/DXF_Files(*.dwg;*.dxf)|*.dwg;*.dxf|DWG_Files(*.dwg)|*.dwg|DXF_Files(*.dxf)|*.dxf|All_Files(*)|* Destination Autodesk AutoCAD Map 3D Object Data File:"
+#! />
+#!     <INFO NAME="SourceDataset_OBJ" 
+#!   DEFAULT_VALUE="&quot;&quot;$(FME_MF_DIR)Batiment2.obj&quot; &quot;$(FME_MF_DIR)Batiment7.obj&quot; &quot;$(FME_MF_DIR)Batiment8.obj&quot; &quot;$(FME_MF_DIR)Batiment10.obj&quot; &quot;$(FME_MF_DIR)Batiment11.obj&quot; &quot;$(FME_MF_DIR)Batiment13.obj&quot; &quot;$(FME_MF_DIR)Batiment14.obj&quot;&quot;"
+#!   SCOPE="DEPENDENT"
+#!   GENERATED_GUI_LINE="true"
+#!   GUI_LINE="GUI MULTIFILE SourceDataset_OBJ INCLUDE_WEB_BROWSER%OBJ_Files(*.obj)|*.obj|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|All_Files(*)|* Source OBJ File:"
+#! />
+#! </PARAMETER_INFO>
+#! </USER_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="21"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Fichiers OBJ non géoréférencés&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Appliquer une translation&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2051100,7276600,0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1083.8862188621888 -653.75718757187587"
+#!   TOP_LEFT="1083.8862188621888 -653.75718757187587"
+#!   BOTTOM_RIGHT="1703.1420314203142 -858.75893758937605"
+#!   BOUNDING_RECT="1083.8862188621888 -653.75718757187587 619.2558125581254 205.00175001750017"
+#!   ORDER="500000000000004"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{b43038af-3a5f-450b-8e9e-76aea2e679c5}"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="12"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#!   IDENTIFIER="6"
+#!   NAME="Writer Feature Types (DWG)"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="1813.1127811278106 -258.25243752437513"
+#!   ORDER="500000000000000"
+#!   PALETTE_COLOR="Reader/Writer"
+#!   BOTTOM_RIGHT="2650.0265002650021 -511.25243752437513"
+#!   BOUNDING_RECT="1813.1127811278106 -258.25243752437513 836.91371913719149 253"
+#!   STICKY="true"
+#!   COLOUR="0.83529411764705885,0.71764705882352942,0.58039215686274515,1"
+#!   CONTENTS="3 "
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="22"
+#!   NAME="Données d&apos;entrée (OBJ)"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="121.75193751937522 112.25218752187521"
+#!   ORDER="500000000000005"
+#!   PALETTE_COLOR="Color5"
+#!   BOTTOM_RIGHT="755.75193751937525 -998.74781247812484"
+#!   BOUNDING_RECT="121.75193751937522 112.25218752187521 634 1111"
+#!   STICKY="true"
+#!   COLOUR="0.59607843137254901,0.91764705882352937,0.72549019607843135,1"
+#!   CONTENTS="9 4 7 5 11 8 10 "
+#! >
+#! </BOOKMARK>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="12"
+#!   TYPE="Offsetter"
+#!   VERSION="1"
+#!   POSITION="1184.3868438684387 -303.12803128031294"
+#!   BOUNDING_RECT="1184.3868438684387 -303.12803128031294 454 71"
+#!   ORDER="500000000000003"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="23319"
+#! >
+#!     <OUTPUT_FEAT NAME="OFFSET"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="AZIMUTH_2D" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AZIMUTH_3D" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CARTESIAN_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="COMPONENTS_TO_OFFSET" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ELEVATION_3D" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Cartesian Coordinate"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POINT_CLOUD_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POLAR_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RADIUS_2D" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RADIUS_3D" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SPHERICAL_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Offsetter"/>
+#!     <XFORM_PARM PARM_NAME="XOFF" PARM_VALUE="2051100"/>
+#!     <XFORM_PARM PARM_NAME="YOFF" PARM_VALUE="7276600"/>
+#!     <XFORM_PARM PARM_NAME="ZOFF" PARM_VALUE="0"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="13"
+#!   SOURCE_NODE="4"
+#!   TARGET_NODE="12"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="14"
+#!   SOURCE_NODE="5"
+#!   TARGET_NODE="12"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="15"
+#!   SOURCE_NODE="7"
+#!   TARGET_NODE="12"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="16"
+#!   SOURCE_NODE="8"
+#!   TARGET_NODE="12"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="17"
+#!   SOURCE_NODE="9"
+#!   TARGET_NODE="12"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="18"
+#!   SOURCE_NODE="10"
+#!   TARGET_NODE="12"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="19"
+#!   SOURCE_NODE="11"
+#!   TARGET_NODE="12"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="20"
+#!   SOURCE_NODE="12"
+#!   TARGET_NODE="3"
+#!   SOURCE_PORT_DESC="fo 0 OFFSET"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+
+FME_PYTHON_VERSION 311
+ARCGIS_COMPATIBILITY ARCGIS_AUTO
+GUI IGNORE SourceDataset_OBJ_1,OBJ_IN_FME_GROUP_NAMED1_OBJ_1,OBJ_IN_MERGE_MESH_PARTS_OBJ_1,OBJ_IN_FME_GROUP_NAMED2_OBJ_1,OBJ_IN_MOVE_TO_WORLD_COORDSYS_OBJ_1,OBJ_IN_USE_SEARCH_ENVELOPE_OBJ_1,OBJ_IN_SEARCH_ENVELOPE_MINX_OBJ_1,OBJ_IN_SEARCH_ENVELOPE_MINY_OBJ_1,OBJ_IN_SEARCH_ENVELOPE_MAXX_OBJ_1,OBJ_IN_SEARCH_ENVELOPE_MAXY_OBJ_1,OBJ_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_OBJ_1,OBJ_IN_CLIP_TO_ENVELOPE_OBJ_1,OBJ_IN_NETWORK_AUTHENTICATION_OBJ_1,DestDataset_AUTOCAD_OD_1,APPEND_TO_TEMPLATEFILE_AUTOCAD_OD_1,PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES_AUTOCAD_OD_1,AUTOCAD_OD_OUT_FME_GROUP_NAMED1_AUTOCAD_OD_1,AUTOCAD_OD_OUT_VERSION_AUTOCAD_OD_1,AUTOCAD_OD_OUT_TEMPLATEFILE_AUTOCAD_OD_1,AUTOCAD_OD_OUT_TEMPLATE_GROUP_AUTOCAD_OD_1,AUTOCAD_OD_OUT_REALDWG_WRT_ADV_PARM_GROUP_AUTOCAD_OD_1,AUTOCAD_OD_OUT_DEFAULT_APPLICATION_AUTOCAD_OD_1,AUTOCAD_OD_OUT_OUTPUT_DEFINED_ATTRS_ONLY_AUTOCAD_OD_1,AUTOCAD_OD_OUT_SHAPE_DIRECTORY_AUTOCAD_OD_1,AUTOCAD_OD_OUT_CREATED_BLOCK_NAME_PREFIX_AUTOCAD_OD_1,AUTOCAD_OD_OUT_COORDINATE_SYSTEM_STORAGE_AUTOCAD_OD_1,AUTOCAD_OD_OUT_PURGE_AUTOCAD_OD_1,AUTOCAD_OD_OUT_PREFER_DONUTS_AS_HATCHES_AUTOCAD_OD_1,AUTOCAD_OD_OUT_INDEX_TYPE_AUTOCAD_OD_1,AUTOCAD_OD_OUT_BLOCK_OBJECT_DATA_STORAGE_AUTOCAD_OD_1
+# ============================================================================
+DEFAULT_MACRO DestDataset_AUTOCAD_OD $(FME_MF_DIR)Batiment2.dwg
+
+DEFAULT_MACRO SourceDataset_OBJ ""$(FME_MF_DIR)Batiment2.obj" "$(FME_MF_DIR)Batiment7.obj" "$(FME_MF_DIR)Batiment8.obj" "$(FME_MF_DIR)Batiment10.obj" "$(FME_MF_DIR)Batiment11.obj" "$(FME_MF_DIR)Batiment13.obj" "$(FME_MF_DIR)Batiment14.obj""
+
+# ============================================================================
+INCLUDE [ if {{$(DestDataset_AUTOCAD_OD$encode)} == {}} { puts_real {Parameter 'DestDataset_AUTOCAD_OD' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SourceDataset_OBJ$encode)} == {}} { puts_real {Parameter 'SourceDataset_OBJ' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! encoding="utf-8"
+#! WORKSPACE_VERSION 1
+# ============================================================================ 
+# 
+# This mapping file was generated by FME Workbench
+# on 06/21/23 for translation between OBJ and AUTOCAD_OD
+# 
+# This workspace was generated with FME build 23319
+#
+# You may edit this mapping file to customize its operation.  Comments are 
+# placed throughout to assist you. 
+# 
+# Modification History:
+# 
+#     Name              Date     Description
+#     ================= ======== =============================================
+# 
+# 
+# ============================================================================ 
+# ============================================================================ 
+# The following line defines the title presented to the user when this
+# mapping file is run through the FME GUI.  You may modify this
+# if a more meaningful title would be appropriate.
+GUI TITLE OBJ to AUTOCAD_OD Translation 
+# ============================================================================ 
+# The following line names the log file to which useful statistics about
+# the translation will be written.  This line can be uncommented and
+# updated if you do wish to keep these statistics.
+# LOG_FILENAME translation.log
+# LOG_APPEND NO
+# ============================================================================ 
+# The following line instructs the FME to log any features that do not
+# match any of the source feature patterns listed further down in
+# this file.  If you are modifying this mapping file, this will be
+# useful to describe to you exactly which features you are losing
+# during translation, if the statistics indicate that features are
+# not being correlated or grouped.  Uncorrelated features do not
+# match any source specification, ungrouped features do not have
+# any corresponding _DEF line. 
+# FME_DEBUG UNGROUPED UNCORRELATED
+# ============================================================================ 
+# The following two lines define the type of reader and writer to be
+# used for this translation.  If you want to translate your data
+# back into its original format, you may make a copy of this file
+# and switch the reader and writer types.  If you rerun the FME, you
+# will get your original data back again (together with any modifications
+# you made in the meantime).  Note that several formats are NOT
+# bi-directional (for example, GIF can only be used as a WRITER)
+# so a reverse translation may not always be possible.
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+MULTI_READER_TYPE{0} OBJ
+MULTI_READER_KEYWORD{0} OBJ_1
+MULTI_READER_GEN_DIRECTIVES{0} SEARCH_ENVELOPE_COORDINATE_SYSTEM,,MERGE_MESH_PARTS,No,EXPOSE_ATTRS_GROUP,,_MERGE_SCHEMAS,YES,_EXTRA_DATASETS,<quote>E:<backslash>OneDrive<space>-<space>Monsieur<space>Quentin<space>Marquette<backslash>Infopro<space>Digital<backslash>2.<space>R<u00e9>daction<space>Map<space>3D<backslash>D<u00e9>dicaces<backslash>Eyrolles<space><openparen>22-06-2023<closeparen><backslash>02.<space>B<u00e2>timents<space>OBJ<backslash>Batiment7.obj<quote><comma><quote>E:<backslash>OneDrive<space>-<space>Monsieur<space>Quentin<space>Marquette<backslash>Infopro<space>Digital<backslash>2.<space>R<u00e9>daction<space>Map<space>3D<backslash>D<u00e9>dicaces<backslash>Eyrolles<space><openparen>22-06-2023<closeparen><backslash>02.<space>B<u00e2>timents<space>OBJ<backslash>Batiment8.obj<quote><comma><quote>E:<backslash>OneDrive<space>-<space>Monsieur<space>Quentin<space>Marquette<backslash>Infopro<space>Digital<backslash>2.<space>R<u00e9>daction<space>Map<space>3D<backslash>D<u00e9>dicaces<backslash>Eyrolles<space><openparen>22-06-2023<closeparen><backslash>02.<space>B<u00e2>timents<space>OBJ<backslash>Batiment10.obj<quote><comma><quote>E:<backslash>OneDrive<space>-<space>Monsieur<space>Quentin<space>Marquette<backslash>Infopro<space>Digital<backslash>2.<space>R<u00e9>daction<space>Map<space>3D<backslash>D<u00e9>dicaces<backslash>Eyrolles<space><openparen>22-06-2023<closeparen><backslash>02.<space>B<u00e2>timents<space>OBJ<backslash>Batiment11.obj<quote><comma><quote>E:<backslash>OneDrive<space>-<space>Monsieur<space>Quentin<space>Marquette<backslash>Infopro<space>Digital<backslash>2.<space>R<u00e9>daction<space>Map<space>3D<backslash>D<u00e9>dicaces<backslash>Eyrolles<space><openparen>22-06-2023<closeparen><backslash>02.<space>B<u00e2>timents<space>OBJ<backslash>Batiment13.obj<quote><comma><quote>E:<backslash>OneDrive<space>-<space>Monsieur<space>Quentin<space>Marquette<backslash>Infopro<space>Digital<backslash>2.<space>R<u00e9>daction<space>Map<space>3D<backslash>D<u00e9>dicaces<backslash>Eyrolles<space><openparen>22-06-2023<closeparen><backslash>02.<space>B<u00e2>timents<space>OBJ<backslash>Batiment14.obj<quote>,SEARCH_ENVELOPE_MINX,0,MOVE_TO_WORLD_COORDSYS,Yes,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_MINY,0,USE_SEARCH_ENVELOPE,NO,CLIP_TO_ENVELOPE,NO,OBJ_EXPOSE_FORMAT_ATTRS,,VARIABLE_FEATURE_TYPES,yes,SEARCH_ENVELOPE_MAXY,0
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} AUTOCAD_OD
+MULTI_WRITER_KEYWORD{0} AUTOCAD_OD_1
+#! END_WB_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "OBJ_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER OBJ OBJ_1
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_OBJ_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER OBJ OBJ_1
+DEFAULT_MACRO SourceDataset_OBJ_1 $(SourceDataset_OBJ)
+GUI MULTIFILE SourceDataset_OBJ_1 OBJ_Files(*.obj)|*.obj|All_Files(*)|* Source OBJ File:
+DEFAULT_MACRO OBJ_IN_VARIABLE_FEATURE_TYPES_OBJ_1 yes
+OBJ_1_VARIABLE_FEATURE_TYPES "$(OBJ_IN_VARIABLE_FEATURE_TYPES_OBJ_1)"
+DEFAULT_MACRO OBJ_IN_FME_GROUP_NAMED1_OBJ_1 
+GUI OPTIONAL DISCLOSUREGROUP OBJ_IN_FME_GROUP_NAMED1_OBJ_1 OBJ_IN_MERGE_MESH_PARTS_OBJ_1 Optimization
+DEFAULT_MACRO OBJ_IN_MERGE_MESH_PARTS_OBJ_1 No
+OBJ_1_MERGE_MESH_PARTS "$(OBJ_IN_MERGE_MESH_PARTS_OBJ_1)"
+GUI CHOICE OBJ_IN_MERGE_MESH_PARTS_OBJ_1 Yes%No Merge Mesh Parts:
+DEFAULT_MACRO OBJ_IN_FME_GROUP_NAMED2_OBJ_1 
+GUI OPTIONAL DISCLOSUREGROUP OBJ_IN_FME_GROUP_NAMED2_OBJ_1 OBJ_IN_MOVE_TO_WORLD_COORDSYS_OBJ_1 Coordinate System
+DEFAULT_MACRO OBJ_IN_MOVE_TO_WORLD_COORDSYS_OBJ_1 Yes
+OBJ_1_MOVE_TO_WORLD_COORDSYS "$(OBJ_IN_MOVE_TO_WORLD_COORDSYS_OBJ_1)"
+GUI CHOICE OBJ_IN_MOVE_TO_WORLD_COORDSYS_OBJ_1 Yes%No Move to World Coordinate System:
+DEFAULT_MACRO OBJ_IN_EXPOSE_ATTRS_GROUP_OBJ_1 
+OBJ_1_EXPOSE_ATTRS_GROUP "$(OBJ_IN_EXPOSE_ATTRS_GROUP_OBJ_1)"
+# Include this file in source setting section to add external search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+DEFAULT_MACRO OBJ_IN_USE_SEARCH_ENVELOPE_OBJ_1 NO
+OBJ_1_USE_SEARCH_ENVELOPE "$(OBJ_IN_USE_SEARCH_ENVELOPE_OBJ_1)"
+GUI ACTIVEDISCLOSUREGROUP OBJ_IN_USE_SEARCH_ENVELOPE_OBJ_1 OBJ_IN_SEARCH_ENVELOPE_MINX_OBJ_1%OBJ_IN_SEARCH_ENVELOPE_MINY_OBJ_1%OBJ_IN_SEARCH_ENVELOPE_MAXX_OBJ_1%OBJ_IN_SEARCH_ENVELOPE_MAXY_OBJ_1%OBJ_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_OBJ_1%OBJ_IN_CLIP_TO_ENVELOPE_OBJ_1%OBJ_IN_SEARCH_METHOD%OBJ_IN_SEARCH_METHOD_FILTER%OBJ_IN_SEARCH_ORDER%OBJ_IN_SEARCH_FEATURE%OBJ_IN_DUMMY_SEARCH_ENVELOPE_PARAMETER Use Search Envelope
+# ===========================================================================
+GUI LOOKUP OBJ_IN_SEARCH_ENVELOPE_MINX_OBJ_1 <Unused>,0 
+DEFAULT_MACRO OBJ_IN_SEARCH_ENVELOPE_MINX_OBJ_1 0
+OBJ_1_SEARCH_ENVELOPE "$(OBJ_IN_SEARCH_ENVELOPE_MINX_OBJ_1)"
+GUI OPTIONAL FLOAT OBJ_IN_SEARCH_ENVELOPE_MINX_OBJ_1 Minimum X:
+# ===========================================================================
+GUI LOOKUP OBJ_IN_SEARCH_ENVELOPE_MINY_OBJ_1 <Unused>,0 
+DEFAULT_MACRO OBJ_IN_SEARCH_ENVELOPE_MINY_OBJ_1 0
+OBJ_1_SEARCH_ENVELOPE "$(OBJ_IN_SEARCH_ENVELOPE_MINY_OBJ_1)"
+GUI OPTIONAL FLOAT OBJ_IN_SEARCH_ENVELOPE_MINY_OBJ_1 Minimum Y:
+# ===========================================================================
+GUI LOOKUP OBJ_IN_SEARCH_ENVELOPE_MAXX_OBJ_1 <Unused>,0 
+DEFAULT_MACRO OBJ_IN_SEARCH_ENVELOPE_MAXX_OBJ_1 0
+OBJ_1_SEARCH_ENVELOPE "$(OBJ_IN_SEARCH_ENVELOPE_MAXX_OBJ_1)"
+GUI OPTIONAL FLOAT OBJ_IN_SEARCH_ENVELOPE_MAXX_OBJ_1 Maximum X:
+# ===========================================================================
+GUI LOOKUP OBJ_IN_SEARCH_ENVELOPE_MAXY_OBJ_1 <Unused>,0 
+DEFAULT_MACRO OBJ_IN_SEARCH_ENVELOPE_MAXY_OBJ_1 0
+OBJ_1_SEARCH_ENVELOPE "$(OBJ_IN_SEARCH_ENVELOPE_MAXY_OBJ_1)"
+GUI OPTIONAL FLOAT OBJ_IN_SEARCH_ENVELOPE_MAXY_OBJ_1 Maximum Y:
+# ===========================================================================
+GUI LOOKUP OBJ_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_OBJ_1 <Unused>, 
+DEFAULT_MACRO OBJ_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_OBJ_1 
+OBJ_1_SEARCH_ENVELOPE "$(OBJ_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_OBJ_1)"
+GUI OPTIONAL COORDSYS OBJ_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_OBJ_1 Search Envelope Coordinate System:
+# ===========================================================================
+# BUG18999: We now have a soft clip to fall back on like native spatial index
+# thus we are reintroducing the clip to envelop as an option for users.
+# Defualt to soft clip as per the existing database readers we are emulating
+GUI LOOKUP OBJ_IN_CLIP_TO_ENVELOPE_OBJ_1 <Unused>,NO 
+DEFAULT_MACRO OBJ_IN_CLIP_TO_ENVELOPE_OBJ_1 NO
+OBJ_1_CLIP_TO_ENVELOPE "$(OBJ_IN_CLIP_TO_ENVELOPE_OBJ_1)"
+GUI OPTIONAL CHECKBOX OBJ_IN_CLIP_TO_ENVELOPE_OBJ_1 YES%NO Clip to Search Envelope
+# ===========================================================================
+DEFAULT_MACRO OBJ_IN_NETWORK_AUTHENTICATION_OBJ_1 
+OBJ_1_NETWORK_AUTHENTICATION "$(OBJ_IN_NETWORK_AUTHENTICATION_OBJ_1)"
+GUI OPTIONAL AUTHENTICATOR OBJ_IN_NETWORK_AUTHENTICATION_OBJ_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ============================================================================
+DEFAULT_MACRO OBJ_IN_ATTRIBUTE_READING_OBJ_1 ALL
+OBJ_1_ATTRIBUTE_READING "$(OBJ_IN_ATTRIBUTE_READING_OBJ_1)"
+# ============================================================================
+OBJ_1_GENERATE_FME_BUILD_NUM 23319
+OBJ_1_DATASET "$(SourceDataset_OBJ_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "AUTOCAD_OD_1"
+#! END_WB_HEADER
+#! START_DEST_HEADER AUTOCAD_OD AUTOCAD_OD_1
+# ============================================================================
+# The following GUI lines prompt for a destination file which is used
+# as the output when the destination of the translation is DWG/DXF
+# The dataset this mapping file was generated for was:
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_AUTOCAD_OD_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER AUTOCAD_OD AUTOCAD_OD_1
+DEFAULT_MACRO DestDataset_AUTOCAD_OD_1 $(DestDataset_AUTOCAD_OD)
+GUI FILENAME DestDataset_AUTOCAD_OD_1 DWG_Files(*.dwg)/DXF_Files(*.dxf)|*.dwg;*.dxf|DWG_Files(*.dwg)|*.dwg|DXF_Files(*.dxf)|*.dxf|All_Files(*)|* Destination Autodesk AutoCAD Map 3D Object Data File:
+AUTOCAD_OD_1_OUTPUT_DEFINED_ATTRS_ONLY YES
+DEFAULT_MACRO APPEND_TO_TEMPLATEFILE_AUTOCAD_OD_1 no
+AUTOCAD_OD_1_APPEND_TO_TEMPLATEFILE $(APPEND_TO_TEMPLATEFILE_AUTOCAD_OD_1)
+GUI CHOICE APPEND_TO_TEMPLATEFILE_AUTOCAD_OD_1 yes%no Preserve Template File Model Space Data:
+DEFAULT_MACRO PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES_AUTOCAD_OD_1 yes
+AUTOCAD_OD_1_PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES $(PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES_AUTOCAD_OD_1)
+GUI CHOICE PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES_AUTOCAD_OD_1 yes%no Preserve Template File Paper Space Data:
+# ============================================================================
+# ============================================================================
+DEFAULT_MACRO DEFAULT_ATTR_STORAGE_MACRO_AUTOCAD_OD_1 external_attributes
+# ============================================================================
+AUTOCAD_OD_1_MULTI_WRITER_DEFER_WRITING ALWAYS
+# ============================================================================
+DEFAULT_MACRO AUTOCAD_OD_OUT_FME_GROUP_NAMED1_AUTOCAD_OD_1 
+GUI OPTIONAL DISCLOSUREGROUP AUTOCAD_OD_OUT_FME_GROUP_NAMED1_AUTOCAD_OD_1 AUTOCAD_OD_OUT_VERSION_AUTOCAD_OD_1 File Options
+# ============================================================================
+# The version of AutoCAD file which is to be output.
+DEFAULT_MACRO AUTOCAD_OD_OUT_VERSION_AUTOCAD_OD_1 Release2013
+AUTOCAD_OD_1_VERSION "$(AUTOCAD_OD_OUT_VERSION_AUTOCAD_OD_1)"
+GUI CHOICE AUTOCAD_OD_OUT_VERSION_AUTOCAD_OD_1 Release14%Release2000%Release2004%Release2007%Release2010%Release2013%Release2018%same_as_template AutoCAD Version:
+# ============================================================================
+DEFAULT_MACRO AUTOCAD_OD_OUT_TEMPLATEFILE_AUTOCAD_OD_1 
+AUTOCAD_OD_1_TEMPLATEFILE "$(AUTOCAD_OD_OUT_TEMPLATEFILE_AUTOCAD_OD_1)"
+GUI OPTIONAL FILENAME_MUSTEXIST AUTOCAD_OD_OUT_TEMPLATEFILE_AUTOCAD_OD_1 DWG_Files(*.dwg)/DXF_Files(*.dxf)|*.dwg;*.dxf|DWG_Files(*.dwg)|*.dwg|DXF_Files(*.dxf)|*.dxf|Template_FILES(*.dwt)|*.dwt|All_files(*)|* Template File:
+DEFAULT_MACRO AUTOCAD_OD_OUT_TEMPLATE_GROUP_AUTOCAD_OD_1 
+GUI OPTIONAL DISCLOSUREGROUP AUTOCAD_OD_OUT_TEMPLATE_GROUP_AUTOCAD_OD_1 AUTOCAD_OD_OUT_TEMPLATEFILE_AUTOCAD_OD_1%AUTOCAD_OD_OUT_APPEND_TO_TEMPLATEFILE%AUTOCAD_OD_OUT_PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES Template File
+# ============================================================================
+# ============================================================================
+DEFAULT_MACRO AUTOCAD_OD_OUT_REALDWG_WRT_ADV_PARM_GROUP_AUTOCAD_OD_1 
+GUI OPTIONAL DISCLOSUREGROUP AUTOCAD_OD_OUT_REALDWG_WRT_ADV_PARM_GROUP_AUTOCAD_OD_1 FME_DISCLOSURE_CLOSED%AUTOCAD_OD_OUT_DEFAULT_APPLICATION_AUTOCAD_OD_1%AUTOCAD_OD_OUT_OUTPUT_DEFINED_ATTRS_ONLY_AUTOCAD_OD_1%AUTOCAD_OD_OUT_SHAPE_DIRECTORY_AUTOCAD_OD_1%AUTOCAD_OD_OUT_CREATED_BLOCK_NAME_PREFIX_AUTOCAD_OD_1%AUTOCAD_OD_OUT_COORDINATE_SYSTEM_STORAGE_AUTOCAD_OD_1%AUTOCAD_OD_OUT_PURGE_AUTOCAD_OD_1%AUTOCAD_OD_OUT_PREFER_DONUTS_AS_HATCHES_AUTOCAD_OD_1%AUTOCAD_OD_OUT_INDEX_TYPE_AUTOCAD_OD_1%AUTOCAD_OD_OUT_BLOCK_OBJECT_DATA_STORAGE_AUTOCAD_OD_1 Advanced
+# ============================================================================
+DEFAULT_MACRO AUTOCAD_OD_OUT_DEFAULT_APPLICATION_AUTOCAD_OD_1 
+AUTOCAD_OD_1_DEFAULT_APPLICATION "$(AUTOCAD_OD_OUT_DEFAULT_APPLICATION_AUTOCAD_OD_1)"
+GUI OPTIONAL TEXT AUTOCAD_OD_OUT_DEFAULT_APPLICATION_AUTOCAD_OD_1 Default Application Name:
+# ============================================================================
+DEFAULT_MACRO AUTOCAD_OD_OUT_OUTPUT_DEFINED_ATTRS_ONLY_AUTOCAD_OD_1 yes
+AUTOCAD_OD_1_OUTPUT_DEFINED_ATTRS_ONLY "$(AUTOCAD_OD_OUT_OUTPUT_DEFINED_ATTRS_ONLY_AUTOCAD_OD_1)"
+GUI CHOICE AUTOCAD_OD_OUT_OUTPUT_DEFINED_ATTRS_ONLY_AUTOCAD_OD_1 yes%no Output Defined Attributes Only:
+# ============================================================================
+DEFAULT_MACRO AUTOCAD_OD_OUT_SHAPE_DIRECTORY_AUTOCAD_OD_1 
+AUTOCAD_OD_1_SHAPE_DIRECTORY "$(AUTOCAD_OD_OUT_SHAPE_DIRECTORY_AUTOCAD_OD_1)"
+GUI OPTIONAL DIRNAME AUTOCAD_OD_OUT_SHAPE_DIRECTORY_AUTOCAD_OD_1 AutoCAD Shape File Folder:
+# ============================================================================
+DEFAULT_MACRO AUTOCAD_OD_OUT_CREATED_BLOCK_NAME_PREFIX_AUTOCAD_OD_1 
+AUTOCAD_OD_1_CREATED_BLOCK_NAME_PREFIX "$(AUTOCAD_OD_OUT_CREATED_BLOCK_NAME_PREFIX_AUTOCAD_OD_1)"
+GUI OPTIONAL TEXT AUTOCAD_OD_OUT_CREATED_BLOCK_NAME_PREFIX_AUTOCAD_OD_1 Created Block Name Prefix:
+# ============================================================================
+DEFAULT_MACRO AUTOCAD_OD_OUT_COORDINATE_SYSTEM_STORAGE_AUTOCAD_OD_1 
+AUTOCAD_OD_1_COORDINATE_SYSTEM_STORAGE "$(AUTOCAD_OD_OUT_COORDINATE_SYSTEM_STORAGE_AUTOCAD_OD_1)"
+GUI OPTIONAL LOOKUP_LISTBOX AUTOCAD_OD_OUT_COORDINATE_SYSTEM_STORAGE_AUTOCAD_OD_1 "\"Internal Native\",NATIVE"%"\"External PRJ\",EXTERNAL_PRJ"%"\"Internal WKT\",INTERNAL_WKT" Coordinate System Storage:
+# ============================================================================
+DEFAULT_MACRO AUTOCAD_OD_OUT_PURGE_AUTOCAD_OD_1 no
+AUTOCAD_OD_1_PURGE "$(AUTOCAD_OD_OUT_PURGE_AUTOCAD_OD_1)"
+GUI CHOICE AUTOCAD_OD_OUT_PURGE_AUTOCAD_OD_1 yes%no Purge Unused Objects:
+# ============================================================================
+DEFAULT_MACRO AUTOCAD_OD_OUT_PREFER_DONUTS_AS_HATCHES_AUTOCAD_OD_1 no
+AUTOCAD_OD_1_PREFER_DONUTS_AS_HATCHES "$(AUTOCAD_OD_OUT_PREFER_DONUTS_AS_HATCHES_AUTOCAD_OD_1)"
+GUI CHOICE AUTOCAD_OD_OUT_PREFER_DONUTS_AS_HATCHES_AUTOCAD_OD_1 yes%no Prefer writing donuts as hatches:
+# ============================================================================
+DEFAULT_MACRO AUTOCAD_OD_OUT_INDEX_TYPE_AUTOCAD_OD_1 none
+AUTOCAD_OD_1_INDEX_TYPE "$(AUTOCAD_OD_OUT_INDEX_TYPE_AUTOCAD_OD_1)"
+GUI LOOKUP_CHOICE AUTOCAD_OD_OUT_INDEX_TYPE_AUTOCAD_OD_1 None,none%Layer,layer%Spatial,spatial%"\"Layer & Spatial\",both" Index Type:
+DEFAULT_MACRO AUTOCAD_OD_OUT_BLOCK_OBJECT_DATA_STORAGE_AUTOCAD_OD_1 Insert
+AUTOCAD_OD_1_BLOCK_OBJECT_DATA_STORAGE "$(AUTOCAD_OD_OUT_BLOCK_OBJECT_DATA_STORAGE_AUTOCAD_OD_1)"
+GUI CHOICE AUTOCAD_OD_OUT_BLOCK_OBJECT_DATA_STORAGE_AUTOCAD_OD_1 Insert%All Write block object data to:
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO AUTOCAD_OD_OUT_DESTINATION_DATASETTYPE_VALIDATION_AUTOCAD_OD_1 Yes
+AUTOCAD_OD_1_DESTINATION_DATASETTYPE_VALIDATION "$(AUTOCAD_OD_OUT_DESTINATION_DATASETTYPE_VALIDATION_AUTOCAD_OD_1)"
+# ============================================================================
+AUTOCAD_OD_1_GENERATE_FME_BUILD_NUM 23319
+# ============================================================================
+# Bring in macros for all the autocad colors
+INCLUDE "$(FME_HOME)/metafile/autocadColors.fmi"
+# ============================================================================
+# Not yet implemented
+#DEFAULT_MACRO REALDWG_OUT_AUDIT_AND_FIX no
+#DEFAULT_MACRO REALDWG_OUT_AUDIT_AND_FIX
+#GUI CHOICE REALDWG_OUT_AUDIT_AND_FIX yes%no Audit And Fix Errors:
+#AUTOCAD_OD_AUDIT_AND_FIX $(REALDWG_OUT_AUDIT_AND_FIX_AUTOCAD_OD_1)
+AUTOCAD_OD_1_DATASET "$(DestDataset_AUTOCAD_OD_1)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)obj2autocad_od.log"
+LOG_APPEND NO
+LOG_FILTER_MASK -1
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+FME_NAMES_ENCODING UTF-8
+FME_BULK_MODE_THRESHOLD 2000
+LAST_SAVE_BUILD "FME 2023.0.0.3 (20230613 - Build 23319 - WIN64)"
+DEFAULT_MACRO DATASET_KEYWORD_OBJ_1 OBJ_1
+DEFAULT_MACRO DATASET_KEYWORD_AUTOCAD_OD_1 AUTOCAD_OD_1
+# -------------------------------------------------------------------------
+
+OBJ_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME obj2autocad_od
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+OBJ_1_DEF Batiment13
+# -------------------------------------------------------------------------
+OBJ_1_DEF Batiment14
+# -------------------------------------------------------------------------
+OBJ_1_DEF Batiment8
+# -------------------------------------------------------------------------
+OBJ_1_DEF Batiment10
+# -------------------------------------------------------------------------
+OBJ_1_DEF Batiment7
+# -------------------------------------------------------------------------
+OBJ_1_DEF Batiment2
+# -------------------------------------------------------------------------
+OBJ_1_DEF Batiment11
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD $(DATASET_KEYWORD_OBJ_1)   INPUT FEATURE_TYPE *    ROUTE OBJ OBJ_1::Batiment13 multi_reader_keyword,$(DATASET_KEYWORD_OBJ_1) TO FME_GENERIC ::Batiment13 ALIAS_GEOMETRY    ROUTE OBJ OBJ_1::Batiment14 multi_reader_keyword,$(DATASET_KEYWORD_OBJ_1) TO FME_GENERIC ::Batiment14 ALIAS_GEOMETRY    ROUTE OBJ OBJ_1::Batiment8 multi_reader_keyword,$(DATASET_KEYWORD_OBJ_1) TO FME_GENERIC ::Batiment8 ALIAS_GEOMETRY    ROUTE OBJ OBJ_1::Batiment10 multi_reader_keyword,$(DATASET_KEYWORD_OBJ_1) TO FME_GENERIC ::Batiment10 ALIAS_GEOMETRY    ROUTE OBJ OBJ_1::Batiment7 multi_reader_keyword,$(DATASET_KEYWORD_OBJ_1) TO FME_GENERIC ::Batiment7 ALIAS_GEOMETRY    ROUTE OBJ OBJ_1::Batiment2 multi_reader_keyword,$(DATASET_KEYWORD_OBJ_1) TO FME_GENERIC ::Batiment2 ALIAS_GEOMETRY    ROUTE OBJ OBJ_1::Batiment11 multi_reader_keyword,$(DATASET_KEYWORD_OBJ_1) TO FME_GENERIC ::Batiment11 ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+OBJ_1_MERGE_DEF OBJ_1::Batiment13 EXACT Batiment13
+OBJ_1_MERGE_DEF OBJ_1::Batiment14 EXACT Batiment14
+OBJ_1_MERGE_DEF OBJ_1::Batiment8 EXACT Batiment8
+OBJ_1_MERGE_DEF OBJ_1::Batiment10 EXACT Batiment10
+OBJ_1_MERGE_DEF OBJ_1::Batiment7 EXACT Batiment7
+OBJ_1_MERGE_DEF OBJ_1::Batiment2 EXACT Batiment2
+OBJ_1_MERGE_DEF OBJ_1::Batiment11 EXACT Batiment11
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Batiment2_OBJ_1 Splitter"    INPUT FEATURE_TYPE Batiment2    OUTPUT FEATURE_TYPE Batiment2_OBJ_1
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Batiment7_OBJ_1 Splitter"    INPUT FEATURE_TYPE Batiment7    OUTPUT FEATURE_TYPE Batiment7_OBJ_1
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Batiment8_OBJ_1 Splitter"    INPUT FEATURE_TYPE Batiment8    OUTPUT FEATURE_TYPE Batiment8_OBJ_1
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Batiment10_OBJ_1 Splitter"    INPUT FEATURE_TYPE Batiment10    OUTPUT FEATURE_TYPE Batiment10_OBJ_1
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Batiment11_OBJ_1 Splitter"    INPUT FEATURE_TYPE Batiment11    OUTPUT FEATURE_TYPE Batiment11_OBJ_1
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Batiment13_OBJ_1 Splitter"    INPUT FEATURE_TYPE Batiment13    OUTPUT FEATURE_TYPE Batiment13_OBJ_1
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Batiment14_OBJ_1 Splitter"    INPUT FEATURE_TYPE Batiment14    OUTPUT FEATURE_TYPE Batiment14_OBJ_1
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+INCLUDE [    if { {CARTESIAN} == {CARTESIAN} } {       puts {MACRO Offsetter_OFFSET @Offset(REJECTABLE,"2051100","7276600","0")};    } elseif { {CARTESIAN} == {POLAR} } {       puts {MACRO Offsetter_OFFSET @Offset(REJECTABLE,"CARTESIAN","<Unused>","<Unused>")};    } elseif { {CARTESIAN} == {SPHERICAL} } {       puts {MACRO Offsetter_OFFSET @Offset(REJECTABLE,"CARTESIAN","<Unused>","<Unused>","<Unused>")};    } else {       puts {MACRO Offsetter_OFFSET @Offset(REJECTABLE,"2051100","7276600","0")};    } ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Offsetter_OffsetterInput }    INPUT  FEATURE_TYPE Batiment2_OBJ_1    INPUT  FEATURE_TYPE Batiment7_OBJ_1    INPUT  FEATURE_TYPE Batiment8_OBJ_1    INPUT  FEATURE_TYPE Batiment10_OBJ_1    INPUT  FEATURE_TYPE Batiment11_OBJ_1    INPUT  FEATURE_TYPE Batiment13_OBJ_1    INPUT  FEATURE_TYPE Batiment14_OBJ_1    OUTPUT { FEATURE_TYPE ___TOOFFSETTER___ }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Offsetter_Offsetter }    INPUT FEATURE_TYPE ___TOOFFSETTER___       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)    OUTPUT { FEATURE_TYPE ___TOREJECTOR___       $(Offsetter_OFFSET) }
+FACTORY_DEF {*} TestFactory    FACTORY_NAME { Offsetter_Rejector }    PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT { PASSED FEATURE_TYPE Offsetter_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)        }    OUTPUT { FAILED FEATURE_TYPE Offsetter_Offset       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___) }
+FACTORY_DEF {*} TestFactory    FACTORY_NAME { Offsetter_PointCloudOffsetter }    INPUT { FEATURE_TYPE Offsetter_Offset }    TEST &fme_type == "fme_point_cloud"    TEST { "" != "" }    BOOLEAN_OPERATOR AND    OUTPUT { PASSED FEATURE_TYPE Offsetter_OFFSET       @TransformPointCloud(OFFSET,)        }    OUTPUT { FAILED FEATURE_TYPE Offsetter_OFFSET        }
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME Offsetter_<Rejected> INPUT FEATURE_TYPE Offsetter_<REJECTED>  NO_LOGGING   OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, Offsetter<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Offsetter_OFFSET TO AUTOCAD_OD __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>FME_Synth<lt>u00e8<gt>se<lt>space<gt>b<lt>u00e2<gt>timentaire<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+# -------------------------------------------------------------------------
+AUTOCAD_OD_1_DEF "FME_Synthèse bâtimentaire"   autocad_color                10   autocad_linetype             CONTINUOUS   autocad_layer_frozen         No   autocad_layer_hidden         No   autocad_layer_locked         No   autocad_layer_on             Yes   autocad_layer_plottable      Yes   autocad_layer_desc           ""   autocad_od_entity_key_attr   autocad_od_entity_key
